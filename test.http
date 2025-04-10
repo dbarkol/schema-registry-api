@@ -1,0 +1,6 @@
+###
+@localhost = localhost:7071/api
+@schemaId = your-schema-id
+
+### Get schema definition
+GET http://{{localhost}}/schema/{{schemaId}}
